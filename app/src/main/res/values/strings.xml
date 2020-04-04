@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EShopping</string>
+    <string name="Cate">Categories</string>
+    <string name="prod_icon">Product Icon</string>
+    <string name="Title">Title : -</string>
+    <string name="Desc">Description : -</string>
+    <string name="price">Price : -</string>
+</resources>
