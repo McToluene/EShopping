@@ -4,6 +4,4 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-class ProductModel(val imageId: Int, val title: String, val price: Double, var description: String) :
-  Parcelable {
-}
+data class ProductModel(val imageId: Int, val title: String, val price: Double, var description: String) :Parcelable

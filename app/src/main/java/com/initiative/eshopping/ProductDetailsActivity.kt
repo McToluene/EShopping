@@ -14,7 +14,7 @@ class ProductDetailsActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_product_details)
 
-    val intent = intent.getParcelableExtra<ProductModel>(ProductsAdapter.ProductsViewHolder.productKey)
+    val intent = intent.getParcelableExtra<ProductModel>(MainActivity.productKey)
     intent?.let {
       tv_detailsDesc.text = it.description
       tv_detailsTitle.text = it.title
